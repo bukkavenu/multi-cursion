@@ -7,18 +7,23 @@ void main()
 
 void a()
 {
-  //Only a return or break statement exits the loop here
+  //Only a return statement exits the loop here
+  //return;--------------------(1)
   b();
 }
 
 void b()
 {
-  //Only a return or break statement exits the loop here
+  //Only a return statement exits the loop here
+  //return;-------------------(2)
   c();
 }
 
 void c()
 {
-  //Only a return or break statement exits the loop here
+  //Only a return statement exits the loop here
+  //return; --------------------(3)
   a();
 }
+
+/*NOTE: return at either (1) or (2) or (3) exits the loop*/
