@@ -1,0 +1,24 @@
+
+
+void main()
+{
+  a();
+}
+
+void a()
+{
+  //Only a return or break statement exits the loop here
+  b();
+}
+
+void b()
+{
+  //Only a return or break statement exits the loop here
+  c();
+}
+
+void c()
+{
+  //Only a return or break statement exits the loop here
+  a();
+}
